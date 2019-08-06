@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'kelson_sans_rubold';
+    src: url('../fonts/kelson_sans_bold_ru-webfont.eot');
+    src: url('../fonts/kelson_sans_bold_ru-webfont.eot?') format('embedded-opentype'),
+         url('../fonts/kelson_sans_bold_ru-webfont.woff') format('woff'),
+         url('../fonts/kelson_sans_bold_ru-webfont.ttf') format('truetype'),
+         url('../fonts/kelson_sans_bold_ru-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+.countdownHolder{
+	width:340px;
+	height: 90px;
+	line-height: 45px;
+	text-align:center;
+	margin-top: 10px;
+}
+
+.position{
+	float: left;
+	height: 55px;
+	overflow: hidden;
+	position: relative;
+	width: 37px;
+}
+
+.digit{
+	font-family: 'kelson_sans_rubold';
+	font-size: 48px;
+	position:absolute;
+	display:block;
+	width:37px;
+	height: 75px;
+	text-align:center;
+	color: #cc9302;
+	letter-spacing:0px;
+}
+
+.digit.static{
+	/*background: url(../img/counter_bg.png) center center no-repeat;*/
+}
+
+.countDays{float: left;position: relative; background: url(http://rostzip.ru/img/timer/bg.png) center center no-repeat; width: 75px;height: 75px; margin: 0 4px;}
+.countDiv0{display:none !important; }
+.countHours{float: left;position: relative; background: url(http://rostzip.ru/img/timer/bg.png) center center no-repeat; width: 75px;height: 75px; margin: 0 4px; }
+.countDiv1{display:none !important;}
+.countMinutes{float: left;position: relative; background: url(http://rostzip.ru/img/timer/bg.png) center center no-repeat; width: 75px;height: 75px; margin: 0 4px; }
+.countDiv2{display:none !important;}
+.countSeconds{float: left; position: relative; background: url(http://rostzip.ru/img/timer/bg.png) center center no-repeat; width: 75px;height: 75px; margin: 0 4px;}
+
+.countDays:after, .countHours:after, .countMinutes:after, .countSeconds:after {
+	width: 70px;
+	height: 40px;
+	left: 0;
+	bottom: -10px;
+	text-align: center;	
+	font-family: 'kelson_sans_rubold';
+	font-size: 48px;
+	color: #cc9302;
+	letter-spacing: 0;
+}
+
+
+.countDays:after {content:"Дней"; font-family: 'Arial';  font-size: 14px; color: #fff; position: absolute; bottom: -35px; left: 0px;}
+.countHours:after {content: 'Часов'; font-family: 'Arial';  font-size: 14px; color: #fff; position: absolute; bottom: -35px; left: 0px;}
+.countMinutes:after {content: 'Минут'; font-family: 'Arial';  font-size: 14px; color: #fff; position: absolute; bottom: -35px; left: 0px;}
+.countSeconds:after {content: 'Секунд'; font-family: 'Arial';  font-size: 14px; color: #fff; position: absolute; bottom: -35px; left: 0px;}
+
+.countDays .position:first-child, .countHours .position:first-child,
+.countMinutes .position:first-child, .countSeconds .position:first-child {padding-right: 4px;width: 33px; margin-top: 18px;}
+
+.countDays .position:last-child, .countHours .position:last-child,
+.countMinutes .position:last-child, .countSeconds .position:last-child {padding-left: 2px;width: 33px; margin-top: 18px;}
+
+
+.countDays .position:first-child span,
+.countHours .position:first-child span,
+.countMinutes .position:first-child span,
+.countSeconds .position:first-child span {text-align: right;}
+
+.countDays .position:last-child span,
+.countHours .position:last-child span,
+.countMinutes .position:last-child span,
+.countSeconds .position:last-child span {text-align: left;}

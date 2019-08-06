@@ -1,0 +1,40 @@
+/*----------Скрол анимация появления---------*/
+.scroll-animate ul li {
+-moz-opacity: 0;
+-khtml-opacity: 0;
+-webkit-opacity: 0;
+opacity: 0;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+filter: alpha(opacity=0);
+-webkit-transition: all 0.9s ease;
+-moz-transition: all 0.9s ease;
+-ms-transition: all 0.9s ease;
+-o-transition: all 0.9s ease;
+transition: all 0.9s ease;
+-webkit-transform: scale(1.5);
+-moz-transform: scale(1.5);
+-o-transform: scale(1.5);
+-ms-transform: scale(1.5);
+transform: scale(1.5);
+}
+/*============================================*/
+/*----------Скрол анимация появления---------*/
+.scroll-animate ul li {
+-moz-opacity: 0;
+-khtml-opacity: 0;
+-webkit-opacity: 0;
+opacity: 0;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+filter: alpha(opacity=0);
+-webkit-transition: all 1.5s ease;
+-moz-transition: all 1.5s ease;
+-ms-transition: all 1.5s ease;
+-o-transition: all 1.5s ease;
+transition: all 1.5s ease;
+-webkit-transform: scale(1.5);
+-moz-transform: scale(1.5);
+-o-transform: scale(1.5);
+-ms-transform: scale(1.5);
+transform: scale(1.5);
+}
+/*============================================*/

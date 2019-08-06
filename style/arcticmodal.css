@@ -1,0 +1,47 @@
+.arcticmodal-overlay,
+.arcticmodal-container { position: fixed; left: 0; top: 0; right: 0; bottom: 0; z-index: 1000; }
+.arcticmodal-container { overflow: auto; margin: 0; padding: 0; border: 0; border-collapse: collapse; }
+*:first-child+html .arcticmodal-container { height: 100% }
+.arcticmodal-container_i { height: 100%; margin: 0 auto; }
+.arcticmodal-container_i2 { margin: 0; border: 0; vertical-align: middle; }
+.arcticmodal-error { padding: 20px; border-radius: 10px; background: #000; color: #fff; }
+.arcticmodal-loading { width: 80px; height: 80px; border-radius: 10px; background: #000 url(http://rostzip.ru/style/loading.gif) no-repeat 50% 50%; }
+
+
+.box-modal {display: block; float: right; margin-top: 60px; width: 345px; height: 370px; background: #14252A; box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	position: relative;
+	padding: 16px;}
+
+body .modal{
+	display: block;
+}
+.box-modal h3 {font-size: 40px;  text-align: center; display: block; margin-top: 20px; margin-bottom: 12px; color: #fdb703; text-transform: uppercase;}
+/*.box-modal_close { position: absolute; right: -20px; top: -20px; font-size: 14px; line-height: 15px; color: #000; cursor: pointer; 
+	background: url(../img/fancybox_sprite.png) top left no-repeat; width: 34px; height: 33px;}
+.box-modal_close:hover { color: #000;text-decoration:underline; }*/
+
+
+::-webkit-input-placeholder {color:#adadad;  font-family: 'Arial'; font-size: 15px;}
+::-moz-placeholder          {color:#adadad;  font-family: 'Arial'; font-size: 15px;}
+:-moz-placeholder           {color:#adadad;  font-family: 'Arial'; font-size: 15px;}
+:-ms-input-placeholder      {color:#adadad;  font-family: 'Arial'; font-size: 15px;}
+
+.box-modal form input[type=text],
+.box-modal form input[type=tel],
+.box-modal form input[type=email]
+ {
+position: relative; display: block; width: 294px; margin: 0; padding: 0;
+ height: 40px; line-height: 36px; outline: none; margin: 10px auto; color:#adadad;  font-family: 'Arial'; font-size: 15px;
+ background: #fff; border: none; border-radius: 4px; -moz-border-radius: 4px;-webkit-border-radius: 4px; text-indent: 10px;}
+
+.box-modal input[type=submit] {font-size: 20px; color: #fff; cursor: pointer; outline: none; border: none; text-transform: uppercase;
+ background: url(http://rostzip.ru/img/button.png) no-repeat; background-position: -0px -55px; width: 297px; height: 55px; display: block; position: relative;
+ text-align: center; margin: 0 auto; padding: 0; text-shadow: 1px 1px 0 rgba( 187, 69, 0, 0.47); margin-top: 30px;}
+.box-modal input[type=submit]:hover {background: url(http://rostzip.ru/img/button.png) no-repeat; background-position: -0px -0px;}
+.box-modal input[type=submit]:active {background: url(http://rostzip.ru/img/button.png) no-repeat; background-position: -0px -110px;}
+
+.box-modal label {display:block;margin:0 auto 9px auto;}
+/*.box-modal a {background: url(../img/buttonForm.png) no-repeat;text-decoration: none;outline: none; color:white; width:242px;height:56px;line-height:56px;display:block;margin:21px auto 0 auto;font-family:'PT Serif',arial,tahoma,sans-serif;font-weight:bold;font-style:normal;font-size:24px;text-align:center;}*/
